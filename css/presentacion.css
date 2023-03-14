@@ -1,0 +1,47 @@
+.title__div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.title__profile {
+    width: 368px;
+    height: 368px;
+}
+
+.title__bio {
+    font-weight: bold;
+	font-size: 2.3em;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.title__subsection {
+    padding-top: .50rem;
+    font-size: 1.4em;
+    margin-bottom: 1.8rem;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title__network__item {
+    padding: 1rem;
+}
+
+.title__network a {
+    text-decoration: none;
+	color: inherit;
+    font-size: 1rem;
+
+}
+
+.title__network img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
