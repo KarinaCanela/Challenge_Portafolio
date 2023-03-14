@@ -13,6 +13,11 @@
 
 .about__paragraph {
     font-size: 1.4rem;
-    margin-right: 10rem;
+    margin-right: 12rem;
     text-align: justify;
+}
+
+.about__signature {
+    width: 130px;
+    height: 80px;
 }
