@@ -1,0 +1,41 @@
+.skills__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 5;
+}
+
+.skills__box {
+    background: var(--cor-de-fondo-cuad);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem; 
+}
+
+.skills__img {
+    width: 32px;
+    height: 37px;
+}
+
+.skills__box:hover {
+    border-radius: 1rem;
+    transition: 2s;
+    transform: scale(1.5,1.5);
+}
+
+.skills__img:hover {
+    
+}
+

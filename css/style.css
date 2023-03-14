@@ -50,7 +50,8 @@ table {
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo: #e8e5e5;
+   --cor-de-fondo-cuad: #FFFFFF;
    --cor-de-link: #000;
    --cor-de-sobre-mi: #b5cbea;
 }
