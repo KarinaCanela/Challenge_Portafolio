@@ -1,0 +1,18 @@
+.about__container {
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+    background: var(--cor-de-sobre-mi);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.about__title {
+    margin-bottom: 1rem;
+    font-size: 1.8em;
+}
+
+.about__paragraph {
+    font-size: 1.4rem;
+    margin-right: 10rem;
+    text-align: justify;
+}
