@@ -1,0 +1,36 @@
+.hobbies__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 5;
+}
+
+.hobbies__box {
+    background: var(--cor-de-fondo-cuad);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem; 
+}
+
+.hobbies__img {
+    width: 32px;
+    height: 37px;
+}
+
+.hobbies__box:hover {
+    border-radius: 1rem;
+    transition: 2s;
+    transform: scale(1.5,1.5);
+}
