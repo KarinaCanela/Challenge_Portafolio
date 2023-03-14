@@ -1,0 +1,40 @@
+.menu {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 20px 0;
+}
+
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.headerPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.headerPrincipal__nav {
+    display: flex;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: var(--cor-de-link);
+	display: block;
+    font-size: 1em;
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+
