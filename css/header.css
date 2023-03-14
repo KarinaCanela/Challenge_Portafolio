@@ -37,4 +37,10 @@
     display: flex;
 }
 
+.headerPrincipal-nav-link:hover {
+	transform: scale(1.5);
+	background: var(--cor-de-fundo);
+	transition: width 2s;
+}
+
 
