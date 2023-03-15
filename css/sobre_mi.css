@@ -1,7 +1,7 @@
 .about__container {
     margin-top: 2rem;
 	margin-bottom: 2rem;
-    background: var(--cor-de-sobre-mi);
+    background: var(--cor-de-box);
     padding: 1rem;
     border-radius: 1rem;
 }
