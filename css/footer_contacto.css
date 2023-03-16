@@ -69,6 +69,10 @@
     font-family: 'Dosis';
 }
 
+.formcontato__botao:hover {
+    font-weight: bold;
+}
+
 .footer__rodape {
     margin-top: .5rem;
 }

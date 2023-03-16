@@ -7,7 +7,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-	padding: 20px 0;
+	padding: .8rem 0;
+	color: var(--cor-de-fundo);
+	/* background-color: rgba(138, 136, 136, 0.358);
+    border-radius: .5rem; */
 }
 
 .headerPrincipal-titulo a {
@@ -28,7 +31,7 @@
 .headerPrincipal-nav-link {
 	padding: 10px;
 	margin-bottom: 10px;
-	color: var(--cor-de-link);
+	color: var(--cor-de-fundo);
 	display: block;
     font-size: 1em;
 }
@@ -39,7 +42,6 @@
 
 .headerPrincipal-nav-link:hover {
 	transform: scale(1.5);
-	background: var(--cor-de-fundo);
 	transition: width 2s;
 }
 

@@ -48,8 +48,6 @@ table {
 }
 
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #e8e5e5;
    --cor-de-fondo-cuad: #FFFFFF;
    --cor-de-link: #000;
@@ -58,73 +56,13 @@ table {
 }
 
 body {
-    /* box-sizing: border-box; */
-    /* background: url(../assets/backg.jpg) ; */
-	background-color: var(--cor-de-fundo);
+	background: url(../assets/backg.jpg);
     font-family: 'Dosis';
-	/* color: var(--cor-de-fundo); */
+	color: var(--cor-de-link);
     margin: 2rem;
 	margin-top: .50rem;
     line-height: 1;
     
-}
-
-
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
-/*Sección Menu*/
-
-
-/*Sección Title*/
-
-section.title{
-
-}
-
-/*Sección About*/
-
-section.about{
-
-}
-
-/*Sección Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-
-}
-
-/* experiencia*/
-
-section.experience{
-
-}
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?

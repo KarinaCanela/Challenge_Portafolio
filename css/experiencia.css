@@ -3,6 +3,7 @@
     margin-bottom: 1rem;
     font-size: 1.8em;
     text-align: center;
+    color: var(--cor-de-fondo-cuad);
 }
 
 .experience {
@@ -63,6 +64,10 @@
     font-family: 'Dosis';
 }
 
+.experiencia__botao--repo:hover {
+    font-weight: bold;
+}
+
 .experience__botao--demo {
     padding: 1rem;
     width: 105px;
@@ -72,4 +77,8 @@
     color: var(--cor-de-fundo);
     border-radius: .2rem;
     font-family: 'Dosis';
+}
+
+.experience__botao--demo:hover {
+    font-weight: bold;
 }

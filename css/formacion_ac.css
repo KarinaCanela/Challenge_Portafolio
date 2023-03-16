@@ -11,23 +11,13 @@
     margin-bottom: 1rem;
     font-size: 1.8em;
     text-align: center;
+    /* color: var(--cor-de-fondo-cuad); */
 }
 
 .academic__courses {
     display: flex;
     justify-content: space-around;
     width: auto;
-}
-
-.academic__courses__box {
-    /* width: 18rem;
-    height: 10rem;
-    background: var(--cor-de-fondo-cuad); */
-}
-
-.academic__courses__list {
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .academic__courses__item__img {
