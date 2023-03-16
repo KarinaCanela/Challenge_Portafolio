@@ -1,4 +1,3 @@
-//Haz tú validación en javascript acá
 var boxes = document.querySelectorAll(".experiencie__box");
 
 window.addEventListener("scroll", checkBoxes);
@@ -18,3 +17,12 @@ function checkBoxes() {
         }
     });
 }
+
+import { valida } from ".validacion.js";
+
+const inputs = document.querySelectorAll("input");
+inputs.forEach(inputs => {
+    inputs.addEventListener('blur', (input) => {
+        valida(input.target);
+    })
+})

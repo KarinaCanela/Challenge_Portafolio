@@ -255,11 +255,14 @@
             </div>
             <div class="formcontato__text">
                 <form class="formcontato__form" name="form">
-                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                    <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto"> 
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*[ !@#$%^&*_=+-]).{6,12}$">
+                    <div>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required> 
                 </form>
-                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
                 <button type="submit" class="formcontato__botao">Enviar mensaje</button>
             </div>
         </div>
@@ -269,6 +272,6 @@
         </div>
     </section>
     
-<script src="validacion.js"></script>
+<script src="js/app.js" type="module"></script>
 </body>
 </html>
