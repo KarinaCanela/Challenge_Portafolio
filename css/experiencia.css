@@ -1,0 +1,75 @@
+.experience__section__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.experience {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.experiencie__box {
+    background-color: var(--cor-de-box);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65rem;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.9s ease;
+}
+
+.experiencie__box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.experiencie__box.show {
+    transform: translateX(0%);
+}
+
+.experience__img {
+    padding: .5rem;
+    width: 45rem;
+    border-radius: 1rem;
+}
+
+.experience__title {
+    font-size: 1.4rem;
+    align-items: baseline;
+}
+
+.experience__text {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+} 
+
+.experiencia__botao--repo {
+    padding: 1rem;
+    width: 105px;
+    height: 51px;
+    border: 1px solid var(--cor-de-btn);
+    color: var(--cor-de-btn);
+    border-radius: .2rem;
+    font-family: 'Dosis';
+}
+
+.experience__botao--demo {
+    padding: 1rem;
+    width: 105px;
+    height: 51px;
+    border: 1px solid var(--cor-de-btn);
+    background: var(--cor-de-btn);
+    color: var(--cor-de-fundo);
+    border-radius: .2rem;
+    font-family: 'Dosis';
+}
