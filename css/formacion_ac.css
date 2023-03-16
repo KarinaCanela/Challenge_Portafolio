@@ -1,9 +1,10 @@
 .academic {
     margin-top: 2rem;
 	margin-bottom: 4rem;
-    background: var(--cor-de-box);
     padding: 1rem;
     border-radius: 1rem;
+    background-color: rgba(138, 136, 136, 0.358);
+    color: var(--cor-de-fondo-cuad);
 }
 
 .academic__title {
@@ -11,7 +12,7 @@
     margin-bottom: 1rem;
     font-size: 1.8em;
     text-align: center;
-    /* color: var(--cor-de-fondo-cuad); */
+    font-weight: bold;
 }
 
 .academic__courses {
@@ -30,8 +31,18 @@
     height: 150px;
 }
 
+.imgtescha:hover {
+    background-color: rgba(138, 136, 136, 0.632);
+    border-radius: 1rem;
+}
+
 .imgalura {
     height: 150px;
+}
+
+.imgalura:hover {
+    background-color: rgba(138, 136, 136, 0.632);
+    border-radius: 1rem;
 }
 
 .academic__courses__item__title {

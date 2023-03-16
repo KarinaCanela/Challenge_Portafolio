@@ -4,6 +4,7 @@
     font-size: 1.8em;
     text-align: center;
     color: var(--cor-de-fondo-cuad);
+    font-weight: bold;
 }
 
 .experience {
@@ -13,10 +14,11 @@
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    position: relative;
 }
 
 .experiencie__box {
-    background-color: var(--cor-de-box);
+    color: var(--cor-de-fondo-cuad);
     display: flex;
     justify-content: center;
     align-items: center;

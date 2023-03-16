@@ -4,6 +4,7 @@
     font-size: 1.8em;
     text-align: center;
     color: var(--cor-de-fondo-cuad);
+    font-weight: bold;
 }
 
 .hobbies__line {
