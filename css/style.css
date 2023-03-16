@@ -58,9 +58,11 @@ table {
 }
 
 body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    /* box-sizing: border-box; */
+    /* background: url(../assets/backg.jpg) ; */
+	background-color: var(--cor-de-fundo);
     font-family: 'Dosis';
+	/* color: var(--cor-de-fundo); */
     margin: 2rem;
 	margin-top: .50rem;
     line-height: 1;

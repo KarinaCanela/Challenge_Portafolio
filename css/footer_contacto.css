@@ -1,0 +1,76 @@
+.footer {
+    text-align: center;
+    background: url(../assets/bg.jpg);
+    padding: 2rem;
+    box-sizing: content-box;
+    color: var(--cor-de-fondo-cuad);
+}
+
+.formcontato__contacto {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    
+}
+
+.formcontato__title {
+    margin-bottom: 1rem;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.formcontato__subtext {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.formcontato__img {
+    width: 13rem;
+}
+
+.formcontato__form {
+    display: flex;
+    padding: 1rem;
+    
+    flex-direction: column;
+    gap: 3rem 2rem;
+    align-items: center;
+}
+
+.formcontato__input {
+    padding: 8px 25px;
+    width: 15rem;
+    height: 1rem;
+    font-family: 'Dosis';
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.formcontato__textarea {
+    padding: 8px 25px;
+    width: 18rem;
+    height: 12rem;
+    gap: 1rem;
+    font-family: 'Dosis';
+}
+
+.formcontato__botao {
+    width: 105px;
+    height: 51px;
+    border: 1px solid var(--cor-de-btn);
+    background: var(--cor-de-btn);
+    color: var(--cor-de-fundo);
+    border-radius: .2rem;
+    font-family: 'Dosis';
+}
+
+.footer__rodape {
+    margin-top: .5rem;
+}
+
+
