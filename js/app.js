@@ -18,11 +18,11 @@ function checkBoxes() {
     });
 }
 
-import { valida } from ".validacion.js";
+// import { valida } from ".validacion.js";
 
-const inputs = document.querySelectorAll("input");
-inputs.forEach(inputs => {
-    inputs.addEventListener('blur', (input) => {
-        valida(input.target);
-    })
-})
+// const inputs = document.querySelectorAll("input");
+// inputs.forEach(inputs => {
+//     inputs.addEventListener('blur', (input) => {
+//         valida(input.target);
+//     })
+// })
