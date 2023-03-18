@@ -50,3 +50,59 @@
     height: 25px;
     vertical-align: middle;
 }
+
+@media (max-width:480px) {
+    .title__div {
+        margin-top: 11rem;
+        justify-content: center;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .title__container {
+        width: 300px;
+    }
+
+    .title__bio {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 2px;
+    }
+
+    .title__profile {
+        margin-top:3px;
+        width: 9rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+
+    .title__subsection {
+        padding-top: .50rem;
+        font-size: 1.4em;
+        margin-bottom: 1.8rem;
+        text-align: justify;
+    }
+
+    .title__network__item a > span {
+        padding: 1rem;
+        display: none;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/formacion_ac.css">
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/footer_contacto.css">
+    <link rel="stylesheet" href="css/style_nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
@@ -24,19 +25,27 @@
     <section class="menu">
         <header class="headerPrincipal">
             <div class="container">
-                <h3 class="headerPrincipal-titulo">
+                <h3 id="nomb" class="headerPrincipal-titulo">
                     <img src="assets/vector.png">
                     <a href="#">Karla Karina Canela Cobos</a> 
                 </h3>
         
-                <nav class="headerPrincipal__nav">
-                    <a class="headerPrincipal-nav-link" href="#sobre-mi">Sobre mi</a>
-                    <a class="headerPrincipal-nav-link" href="#skills">Skills</a>
-                    <a class="headerPrincipal-nav-link" href="#hobbies">Hobbies</a>
-                    <a class="headerPrincipal-nav-link" href="#formacion">Formación</a>
-                    <a class="headerPrincipal-nav-link" href="#xp">Proyectos</a>
-                    <a class="headerPrincipal-nav-link" href="#contacto">Contacto</a>
+                <nav class="headerPrincipal__nav active" id="nav">
+                    <ul>
+                        <li><a class="headerPrincipal-nav-link" href="#sobre-mi">Sobre mi</a></li>
+                        <li><a class="headerPrincipal-nav-link" href="#skills">Skills</a></li>
+                        <li><a class="headerPrincipal-nav-link" href="#hobbies">Hobbies</a></li>
+                        <li><a class="headerPrincipal-nav-link" href="#formacion">Formación</a></li>
+                        <li><a class="headerPrincipal-nav-link" href="#xp">Proyectos</a></li>
+                        <li><a class="headerPrincipal-nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                    <button class="iconbtn" id="toggle">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                    </button>
+                    
                 </nav>
+
             </div>
         </header>
     </section>
@@ -48,10 +57,10 @@
                 <h2 class="title__bio">Hola, mi nombre es Karina y construyo paginas web.</h2>
                 <h3 class="title__subsection">Soy formada en el Tecnológico de Estudios Superiores de Chalco con la carrera de Ingeniería en Sistemas Computacionales y actualmente estoy participando del proyecto Oracle ONE en Alura Latam con la especialidad en Front End.</h3>
                 <ul class="title__network">
-                    <li class="title__network__item"><a href="https://github.com/KarinaCanela">Github <img src="assets/github.png"> </a></li>
-                    <li class="title__network__item"><a href="https://www.linkedin.com/in/karla-karina-canela-cobos-81a83a183/">LinkedIn <img src="assets/linkedin.png"></a></li>
-                    <li class="title__network__item"><a href="https://instagram.com/karina_canela10?igshid=ZDdkNTZiNTM=">Instagram <img src="assets/instagram.png"></a></li>
-                    <li class="title__network__item"><a href="assets/Karla_Karina_Canela_Cobos_cv.pdf">Currículum <img src="assets/cv.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/KarinaCanela"><span>Github</span> <img src="assets/github.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/karla-karina-canela-cobos-81a83a183/"><span>LinkedIn</span> <img src="assets/linkedin.png"></a></li>
+                    <li class="title__network__item"><a href="https://instagram.com/karina_canela10?igshid=ZDdkNTZiNTM="><span>Instagram</span> <img src="assets/instagram.png"></a></li>
+                    <li class="title__network__item"><a href="assets/Karla_Karina_Canela_Cobos_cv.pdf"><span>Currículum</span> <img src="assets/cv.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -60,7 +69,7 @@
     <section class="about" id="sobre-mi">
         <div class="about__container">
             <h3 class="about__title">Sobre mi.</h3>
-            <p class="about__paragraph">Soy egresada de la carrera de Ingeniería en Sistemas Computacionales con especialidad en Desarrollo de aplicaciones web y dispositivos móviles. Como profesional, siempre dedico la máxima energía al desarrollo de mi trabajo, para cumplir con las metas establecidas. Destacaría mis cualidades; curiosa, ingeniosa, amigable y sincera para participar en diferentes actividades y aprendo muy rápido.  </p>
+            <p class="about__paragraph">Soy egresada de la carrera de Ingeniería en Sistemas Computacionales con especialidad en Desarrollo de aplicaciones web y dispositivos móviles.<br> <br> Como profesional, siempre dedico la máxima energía al desarrollo de mi trabajo, para cumplir con las metas establecidas.<br> <br> Destacaría mis cualidades; curiosa, ingeniosa, amigable y sincera para participar en diferentes actividades y aprendo muy rápido.  </p>
             <img class="about__signature" src="assets/signat.png">
         </div>
     </section>
@@ -193,8 +202,8 @@
         </div>
     </section>
 
-    <h2 class="experience__section__title" >Experiencia Profesional</h2>
-    <section class="experience  "id="xp">
+    <h2 class="experience__section__title" id="xp" >Experiencia Profesional</h2>
+    <section class="experience" >
         <div class="experiencie__box ">
             <img class="experience__img" src="assets/encrip.png">
             <div class="experience__info">
@@ -259,7 +268,7 @@
                     <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?!.*[ !@#$%^&*_=+-]).{6,12}$">
                     <div>
                         <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
-                        <span class="input-message-error">Este campo no es valido</span>
+                        <!-- <span class="input-message-error">Este campo no es valido</span> -->
                     </div>
                     <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required> 
                 </form>

@@ -84,3 +84,44 @@
 .experience__botao--demo:hover {
     font-weight: bold;
 }
+
+@media (max-width:480px) { 
+    .experiencie__box {
+        width: 16rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience__img {
+        width: 18rem;
+        border-radius: 1rem;
+    }
+
+    .experiencia__botao--repo {
+        width: 90px;
+        height: 40px;
+        padding: .3rem;
+    }
+    .experience__botao--demo {
+        width: 90px;
+        height: 40px;
+        padding: .3rem;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

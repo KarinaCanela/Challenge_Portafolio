@@ -65,47 +65,23 @@ body {
     
 }
 
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+@media (max-width:480px) { 
+	body {
+		margin-top: 11rem;
+	}
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
 
-/*Menu*/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
 
-/*Titulo*/
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
 
-/*Sección sobre mi*/
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
 
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
-
-}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

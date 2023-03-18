@@ -37,5 +37,30 @@
     transform: scale(1.5,1.5);
 }
 
+@media (max-width:480px) { 
+    .skills__line {
+        flex-wrap: wrap;
+    }
+
+    .skills__box {
+        margin-top: 4px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
 
 
